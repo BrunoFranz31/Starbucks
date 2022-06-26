@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    
+}
+
+
+
+section{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(40deg, rgba(241, 241, 241, 0.971) 21%, rgba(215, 221, 219, 0.923) 52%,rgba(215, 221, 219, 0.923) 65%, rgba(1,113,67,0.9766281512605042) 65%);
+}
+
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header #logo{
+    position: relative;
+    max-width: 80px;
+}
+
+header ul{
+    position: relative;
+    display: flex;
+}
+
+header ul li{
+    list-style: none;
+}
+
+#menu-h{
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    text-decoration: none;
+    color: #333;
+    font-size: 22;
+}
+
+#menu-h a{
+    color: rgb(255, 255, 255);
+}
+
+#menu-h a:hover{
+    border-bottom: 1px solid  rgba(241, 241, 241, 0.971);
+    padding-bottom: 5px;
+}
+
+#conteudo{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0;
+}
+
+#conteudo #tetoCaixa{
+    position: relative;
+    max-width: 600px;
+}
+
+#textoCaixa h2{
+    color: #333;
+    font-size: 4em;
+    line-height: 1.4em;
+    font-weight: 00;
+}
+
+#starbucks{
+    color: #017143;
+    font-size: 1.2em;
+    font-weight: 900;
+}
+
+#conteudo p{
+    color: #333;  
+}
+
+#conteudo a{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 18px;
+    background-color: #017143;
+    border-radius: 40px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+#conteudo a:hover{
+    background-color: #00643a;
+}
+
+#conteudo #produto{
+    position: relative;
+    width: 480px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+    margin-top: -70px;
+    left: 300px;
+}
+
+#conteudo #produto{
+    max-width: 480px;
+}
+
+
+
+#fotos{
+    position: absolute;
+    bottom: 20%;
+    transform: translateX(-50%);
+    cursor: pointer;
+    right: -400px;
+
+}
+
+#fotos li img{
+    height: 100px;
+    padding: 10px;
+    box-shadow: 1px 1px 100px 10px #009657;
+    border-radius: 30px;
+}
+
+#fotos li:hover{
+    border: 2.5px solid #333;
+    border-radius: 30px;
+}
+
