@@ -5,7 +5,7 @@
     font-family: 'Poppins', sans-serif;
     list-style: none;
     text-decoration: none;
-    
+   
 }
 
 
@@ -52,11 +52,13 @@ header ul li{
     justify-content: center;
     text-decoration: none;
     color: #333;
-    font-size: 22;
+
 }
 
 #menu-h a{
     color: rgb(255, 255, 255);
+    
+    
 }
 
 #menu-h a:hover{
@@ -112,16 +114,8 @@ header ul li{
 
 #conteudo #produto{
     position: relative;
-    width: 480px;
     display: flex;
-    justify-content: flex-end;
-    padding-right: 50px;
-    margin-top: -70px;
-    left: 300px;
-}
 
-#conteudo #produto{
-    max-width: 480px;
 }
 
 
@@ -147,3 +141,180 @@ header ul li{
     border-radius: 30px;
 }
 
+
+@media (min-width: 600px){
+    body{
+        overflow-x: hidden;
+        overflow-y: hidden;
+        height: 100vh;
+    }
+
+    #fotos{
+        display: none;
+    }
+
+}
+
+
+@media (min-width: 1025px){
+    body{
+        overflow-x: hidden;
+        overflow-y: hidden;
+        height: 100vh;
+    }
+
+    #fotos{
+        display: none;
+    }
+
+}
+
+
+@media (min-width: 1090px){
+    body{
+        overflow-x: hidden;
+        overflow-y: hidden;
+        height: 100vh;
+    }
+
+    #fotos{
+        display: none;
+    }
+
+}
+
+
+@media (max-width: 600px){
+   
+    #conteudo{
+        margin-top: -75px;
+    }
+
+    #menu-h{
+        display: flex;
+        margin-left: 95px;
+    }
+
+    #logo{
+       width: 80px;
+    }
+
+    #textoCaixa{
+        display: inline-block;
+        text-align: left;
+        margin-right: 100px;
+    }
+
+   #textoCaixa h2{
+    font-size: 35px;
+   }
+
+   #textoCaixa p{
+    display: none;
+   }
+
+   #textoCaixa a{
+    margin-left: 30px;
+   }
+
+   #fotos{
+    display: none;
+   }
+
+   #fotoCaixa{
+    display: none;
+    margin-top: 90px;
+   }
+
+   #produto{
+    margin: 0;
+    left: 0;
+   }
+
+}
+
+@media (max-width: 360px)
+{
+
+    body{
+        overflow-x: hidden;
+        overflow-y: hidden;
+        height: 100vh;
+    }
+
+    #textoCaixa h2{
+        font-size: 30px;
+    }
+
+    #textoCaixa a{
+        margin-left: 20px;
+    }
+}
+
+@media (max-width:680px), (max-width:1000px){
+    
+
+    body{
+        overflow-x: hidden;
+        overflow-y: hidden;
+        height: 100vh;
+    }
+
+    #textoCaixa h2{
+        margin-top: 120px;
+    }
+
+    #starbucks{
+        color: #333;
+    }
+
+    #textoCaixa p{
+        display: none;
+    }
+
+  #conteudo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+  }
+
+
+
+  #produto {
+    width: 100%;
+    margin: 0;
+    left: 0px;
+  }
+
+  #fotoCaixa{
+    display: flex;
+    width: 300px;
+ 
+  }
+
+}
+
+@media (min-width:300px){}
+    
+
+    body{
+        overflow-x: hidden;
+        overflow-y: hidden;
+        height: 100vh;
+    }
+
+@media (min-width:1000px){
+   
+    body{
+        overflow-x: hidden;
+        overflow-y: hidden;
+        height: 100vh;
+    }
+   
+    #fotos{
+        display: inline-block;
+        flex-wrap: wrap;
+    }
+}
